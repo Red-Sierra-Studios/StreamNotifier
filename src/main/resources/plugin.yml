@@ -1,0 +1,9 @@
+name: StreamNotifier
+version: '${version}'
+main: com.github.wolfdev1.streamnotifier.StreamNotifier
+api-version: 1.18
+authors: [ wolfdev1, RedSierraStudios ]
+description: A tool to notify when a Twitch stream starts
+commands:
+  streamnotifier:
+

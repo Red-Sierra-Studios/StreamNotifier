@@ -1,0 +1,12 @@
+twitchOAuth2Token: ""
+prefix: '&x&9&3&2&c&f&b&l&oS&x&a&0&2&a&f&b&l&ot&x&a&c&2&9&f&c&l&or&x&b&9&2&7&f&c&l&oe&x&c&5&2&6&f&d&l&oa&x&d&2&2&4&f&d&l&om&r&8 »'
+streamersToNotify:
+  - "TwitchChannelNameHere"
+  - "OtherChannelNameHere"
+events:
+  start:
+    notify: true
+    message: '{prefix} &6{streamer} &7has started streaming live on twitch!'
+  end:
+    notify: true
+    message: '{prefix} &6{streamer} &7has stopped broadcasting on Twitch.'
